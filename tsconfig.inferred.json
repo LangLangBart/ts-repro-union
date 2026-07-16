@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "noEmit": true
+  },
+  "include": [
+    "repro-inferred.ts",
+    "TypeName.d.ts"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@typescript/native": "npm:typescript@7.0.2",
+    "envinfo": "^7.21.0",
+    "ts-morph": "^28.0.0",
+    "typescript": "npm:@typescript/typescript6@6.0.2"
+  },
+  "engines": {
+    "node": ">=22",
+    "npm": ">=12"
+  },
+  "scripts": {
+    "benchmark": "node benchmark.js",
+    "tsc6": "tsc6 --version; time tsc6",
+    "tsc6:inferred": "tsc6 --version; time tsc6 --project tsconfig.inferred.json",
+    "tsc7": "tsc --version; time tsc",
+    "tsc7:inferred": "tsc --version; time tsc --project tsconfig.inferred.json"
+  },
+  "type": "module"
+}
