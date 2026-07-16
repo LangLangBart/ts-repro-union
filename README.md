@@ -1,5 +1,7 @@
 # Performance Unions Bug in Typescript with Reproduction
 
+**Bug report:** <https://github.com/microsoft/TypeScript/issues/63653>
+
 ## Summary
 
 Exponentially expensive iterations behavior when processing large
